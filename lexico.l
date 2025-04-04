@@ -5,8 +5,10 @@
   void showError();
 
 }%
+numbers ([0-9])+
+alpha ([a-zA-Z])+
 
-
+%%
 
 
 
