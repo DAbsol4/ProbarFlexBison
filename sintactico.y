@@ -8,7 +8,7 @@
 
 %type <cad> CADENA
 %type <number> ENTERO
-// %type <reservada> CARLOS
+/*%type <reservada> CARLOS*/
 
 %union{
   char cad[20]
