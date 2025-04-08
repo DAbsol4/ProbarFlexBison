@@ -4,7 +4,7 @@
   int yyerror(char*s);
 %}
 
-%token CADENA ENTERO ALGO PUNTOCOMA //CARLOS
+%token CADENA ENTERO ALGO PUNTOCOMA /*CARLOS*/
 
 %union{
   char cad[20]
