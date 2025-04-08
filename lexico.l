@@ -10,7 +10,7 @@ alpha ([a-zA-Z])+
 
 %%
 
-#"Carlos"    {yylval.reservada = yytext;       return(CARLOS);}
+//"Carlos"    {yylval.reservada = yytext;       return(CARLOS);}
 {numbers}   {yylval.number = atoi(yytext);    return(ENTERO);}
 ";"         {                                 return(PUNTOCOMA);}
 alpha       {sscanf(yytext, "%s",yylval.cad); return(CADENA);}
