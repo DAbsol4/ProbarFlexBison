@@ -18,5 +18,5 @@ alpha       {sscanf(yytext, "%s",yylval.cad); return(CADENA);}
 .           {showError();                     return(ALGO);}
 %%
 void showError(char* other){
-  printf("    <<ErrorLexico: \"$S\" >>,other);
+  printf("    <<ErrorLexico: \"$S\" >>",other);
 }
